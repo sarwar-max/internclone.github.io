@@ -94,3 +94,50 @@ ul {
 .social-media i {
   padding-right: 20px;
 }
+
+/* Media query */
+@media (max-width: 550px) {
+  .input-serch {
+    width: 18rem;
+  }
+
+  /* Problem Solved */
+  .right-content {
+    position: relative;
+  }
+
+  .training-section {
+    padding-top: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+  .footer-cols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .border-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .playstore {
+    border: 1px solid #807e7e;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .social-media {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+}
+
